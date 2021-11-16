@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Белый цемент</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__left">
+          <form
+            action="https://jsonplaceholder.typicode.com/posts "
+            method="POST"
+          >
+            <h2 class="section-heading">Заполните&nbsp;данные</h2>
+            <label aria-label="Поле ввода Имени">
+              <input
+                class="input"
+                name="name"
+                type="text"
+                placeholder="Ваше имя"
+              />
+            </label>
+            <label aria-label="Поле ввода E-mail">
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Ваш телефон"
+              />
+            </label>
+            <label aria-label="Поле ввода E-mail">
+              <input
+                class="input"
+                name="userEmail"
+                type="email"
+                placeholder="Ваш E-mail"
+              />
+            </label>
+            <button
+              aria-label="Кнопка отправки данных формы"
+              type="submit"
+              class="btn-reset button button--yellow"
+            >
+              Получить&nbsp;консультацию
+            </button>
+            <div class="left-bottom">Политика конфиденциальности</div>
+          </form>
+        </div>
+        <div class="header__center">
+          <div class="header__center-up"><img class="logo" src="img/logo.svg" alt=""></div>
+          <div class="header__center-center">
+            <p class="header__center-p">ТОРГОВЫЕ МАРКИ</p>
+            <h2 class="header__center-title">"CEMIX"</h2>
+            <h2 class="header__center-title">"CIMSA"</h2>
+          </div>
+          <div class="header__center-down">ВСЕГДА В НАЛИЧИИ!</div>
+        </div>
+        <div class="header__right">
+          <div class="header__right-up">
+            <p class="header-right-title">В НАЛИЧИИ НА СКЛАДАХ г. МАГНИТОГОРСКА</p>
+            <p class="header-right-p">
+              ул. Чаадаева, 24 (территория мебельной фабрики) <br>+7 952 515-70-92
+            </p>
+          </div>
+          <div class="header__right-center">
+            <p class="header-right-title">ЧЕЛЯБИНСКА</p>
+            <p class="header-right-p">
+              2я - Потребительская, 30, склад № 17. (рядом соль74) <br>+7 951 783 84
+              49
+            </p>
+          </div>
+          <div class="header__right-down">
+            <p class="header-right-title">УФЫ</p>
+            <p class="header-right-p">Малая Перевалочная 1/1 <br>+7 927 940 93 04</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="container section__price">
+        <h2 class="price-heading">АССОРТИМЕНТ</h2>
+        <h3 class="price-title">ПРОДУКЦИИ</h3>
+        <div class="price-cards">
+          <div class="price-card">
+            <div class="price-left-up">
+              <div class="price-up-top">
+                <div class="country">РОССИЯ</div>
+                <div class="name">Cemix ProWhite</div>
+              </div>
+              <div class="price-up-center">
+                <div class="price">18 500р.</div>
+                <div class="pallet">за паллет</div>
+              </div>
+              <div class="price-up-bottom">
+                <div class="pallet-weight">Вес паллета 1400кг</div>
+                <div class="bag-weight">Вес мешка 40кг</div>
+              </div>
+            </div>
+            <div class="price-list">
+              <div class="price-item">
+                Коэффициент отражения света..............90%
+              </div>
+              <div class="price-item">
+                Начало схватывания минут..................45мин
+              </div>
+              <div class="price-item">
+                Прочность на сжатие, МПа......................М59
+              </div>
+              <div class="price-item">
+                Прочность через 28 дней....................59МПа
+              </div>
+            </div>
+            <div class="price-block-btn">
+              <button class="price-btn">Заказать</button>
+            </div>
+          </div>
+          <div class="price-card">
+            <div class="price-right-up">
+              <div class="price-up-top">
+                <div class="country">ТУРЦИЯ</div>
+                <div class="name">CIMSA</div>
+              </div>
+              <div class="price-up-center">
+                <div class="price">18 500р.</div>
+                <div class="pallet">за паллет</div>
+              </div>
+              <div class="price-up-bottom">
+                <div class="pallet-weight">Вес паллета 1950кг</div>
+                <div class="bag-weight">Вес мешка 50кг</div>
+              </div>
+            </div>
+            <div class="price-list">
+              <div class="price-item">
+                Коэффициент отражения света..............80%
+              </div>
+              <div class="price-item">
+                Начало схватывания минут..................45мин
+              </div>
+              <div class="price-item">
+                Прочность на сжатие, МПа...................М52,5
+              </div>
+              <div class="price-item">
+                Прочность через 28 дней....................60МПа
+              </div>
+            </div>
+            <div class="price-block-btn">
+              <button class="price-btn">Заказать</button>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-text">
+          <div class="price-p">
+            Цемент доставляется в паллетах, запечатанных защитной плёнкой.
+          </div>
+        </div>
+      </section>
+      <section class="container section__services">
+        <div class="section__services-top">БЕРЕЖЕМ</div>
+        <div class="section__services-center">
+          <div class="services-center-left">ВАШЕ ВРЕМЯ И ДЕНЬГИ</div>
+          <div class="services-center-right"><hr></div>
+        </div>
+        <div class="section__services-bottom">
+          <div class="services-bottom">
+            <span class="services-bottom-left-image"></span>
+            <h2 class="services-bottom-title">БЫСТРАЯ ДОСТАВКА</h2>
+            <p class="services-bottom-p">
+              Доставим в любую точку России самым быстрым способом!
+            </p>
+          </div>
+          <div class="services-bottom">
+            <span class="services-bottom-center-image"></span>
+            <h2 class="services-bottom-title">ВСЕГДА В НАЛИЧИИ</h2>
+            <p class="services-bottom-p">
+              В нужном количестве от мешка до вагона.
+            </p>
+          </div>
+          <div class="services-bottom">
+            <span class="services-bottom-right-image"></span>
+            <h2 class="services-bottom-title">УДОБНАЯ ОПЛАТА</h2>
+            <p class="services-bottom-p">
+              Налиными, банковской картой, через терминал или через мобильный платёжный сервис MobiCash
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container section-create">
+        <div class="create-top">
+          <div class="create-top-heading">СФЕРА</div>
+          <div class="create-top-heading_2">
+            <div class="create-top-heading_2-left">ИСПОЛЬЗОВАНИЯ</div>
+            <div class="create-top-heading_2-right"><hr></div>
+          </div>
+        </div>
+        <div class="create-bottom">
+          <div class="create-bottom-up">
+            <div class="create-bottom-up-left">
+              <div class="create-bottom-up-left-title">АРХИТЕКТУРНЫЕ И ДЕКОРАТИВНЫЕ БЕТОННЫЕ РАБОТЫ</div>
+              <div class="create-bottom-text">Торговые центры, бизнес-центры, жилые строения и массивы, мосты, эстетические и декоративыные сооружения, стадионы и пр.</div>
+            </div>
+            <div class="create-bottom-up-center">
+              <div class="create-bottom-up-center-title">ПРОИЗВОДСТВО ГОТОВОЙ ШТУКАТУРКИ И РАСТВОРОВ</div>
+              <div class="create-bottom-text">Внутренние и наружние фасады строений, потолки здания, кровельная изоляция, взлётные полосы для самолётов и верталётов, всякого рода декоративные работы, плавательные бассейны, водные каналы и пр.</div>
+            </div>
+            <div class="create-bottom-up-right">
+              <div class="create-bottom-up-right-title">ПРОИЗВОДСТВО СУХИХ СМЕСЕЙ И МАТЕРИАЛОВ ДЛЯ ЗАПОЛНЕНИЯ ШВОВ</div>
+              <div class="create-bottom-text">Сухие смеси при облицовки фасадов, облицовке кирамической плиткой и мраморным гранитом, швы при строительной кладке, всевозможные работы по обеспечению непроницаемости и пр.</div>
+            </div>
+          </div>
+          <div class="create-bottom-down">
+            <div class="create-bottom-down-left">
+              <div class="create-bottom-down-left-title">РАЗРАБОТКА ЭЛЕМЕНТОВ МЕБЕЛИ ДЛЯ ПАРКОВ И САДОВ</div>
+              <div class="create-bottom-text">Особого качества бордюры, цветники, болконные украшения, наружные панели, комплекты лавочек, клумбы, пограничные камни, железобитонные ограждения, декоративно-художественные изделия, дорожки для перемещения, при обустройстве дома, парка, сада и пр. </div>
+            </div>
+            <div class="create-bottom-down-center">
+              <div class="create-bottom-down-center-title">РАЗРАБОТКА ХУДОЖЕСТВЕННЫХ ИЗДЕЛИЙ</div>
+              <div class="create-bottom-text">Скульптуры малого объема, памятники, реставрационные работы, рельефы, стенные росписи, репродукции и пр.</div>
+            </div>
+            <div class="create-bottom-down-right">
+              <div class="create-bottom-down-right-title">ПРОИЗВОДСТВО НАПОЛЬНЫХ МАТЕРИАЛОВ</div>
+              <div class="create-bottom-text">Напольные плитки разнообразных расцветок и рисунков, тонкая плитка, паркет, "wash"-бетон, замковые камни каменных арок, плитка для настила тротуаров и пр.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container section-certificates">
+        <div class="certificates-top">
+          <div class="certificates-title">СЕРТИФИКАТЫ</div>
+          <div class="certificates-line"><hr></div>
+        </div>
+        <div class="certificates-bottom">
+          <img class="certificates-img" src="img/Layer-36.png" alt="Сертификат">
+          <img class="certificates-img" src="img/Layer-35.png" alt="Сертификат">
+          <img class="certificates-img" src="img/Layer-43.png" alt="Сертификат">
+          <img class="certificates-img" src="img/Layer-44.png" alt="Сертификат">
+          <img class="certificates-img" src="img/Layer-45.png" alt="Сертификат">
+        </div>
+      </section>
+      <section class="container section-partners">
+        <div class="create-top-heading_2-left">НАШИ</div>
+          <div class="partners-top">
+            <div class="partners-title">ПАРТНЕРЫ</div>
+            <div class="partners-line"><hr></div>
+          </div>
+        <div class="partners-bottom">
+          <img class="partners-img" src="img/Layer-32.svg" alt="Логотип Иновации и бетон">
+          <img class="partners-img" src="img/Layer-33.svg" alt="Логотип Евросинтез">
+          <img class="partners-img" src="img/Layer-30.svg" alt="Логотип Metacrete">
+          <img class="partners-img" src="img/Layer-31.svg" alt="Логотип Камелот">
+        </div>  
+      </section>
+      <section class="container setion-maps">
+        <div class="maps-header">
+          <div class="maps-header-left"></div>
+          <div class="maps-header-right">В НАЛИЧИИ НА СКЛАДАХ</div>
+        </div>
+        <div class="maps-top">
+          <div class="maps-left">
+            <div class="maps-title">г.МАГНИТОГОРСК</div>
+            <div class="maps-text">ул. Чаадаева, 24 (территория мебельной фабрики)</div>
+            <div class="maps-number">+7(952)515-70-92</div>
+          </div>
+          <div id="map_1" class="maps-right"><a href="https://yandex.ru/maps/?um=constructor%3Ad99ae5d4a03cf68ee05e72c8753bfd493cbc460a3b891aa805472a9b6bdc53b9&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Ad99ae5d4a03cf68ee05e72c8753bfd493cbc460a3b891aa805472a9b6bdc53b9&amp;width=600&amp;height=450&amp;lang=ru_RU" alt="" style="border: 0;" /></a></div>
+        </div>
+        <div class="maps-center">
+          <div class="maps-left">
+            <div class="maps-title">г.ЧЕЛЯБИНСК</div>
+            <div class="maps-text">ул. 2-я Потребительская, 30, склад №17 (рядом соль74)</div>
+            <div class="maps-number">+7(951)783-84-49</div>
+          </div>
+          <div id="map_2" class="maps-right"><a href="https://yandex.ru/maps/?um=constructor%3A714bc9b111a4a218f7deb22461c530bfb8e896c1dc2118e1d0ef36498fe8f784&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A714bc9b111a4a218f7deb22461c530bfb8e896c1dc2118e1d0ef36498fe8f784&amp;width=600&amp;height=450&amp;lang=ru_RU" alt="" style="border: 0;" /></a></div>
+        </div>
+        </div>
+        <div class="maps-bottom">
+          <div class="maps-left">
+            <div class="maps-title">г.УФА</div>
+            <div class="maps-text">Малая Перевалочная, 1/1</div>
+            <div class="maps-number">+7(927)940-93-04</div>
+          </div>
+          <div id="map_3" class="maps-right"><a href="https://yandex.ru/maps/?um=constructor%3A3dca7ddafbd8022249c1090c6f399322d92fefdf51cb496113005dd9f63fde10&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A3dca7ddafbd8022249c1090c6f399322d92fefdf51cb496113005dd9f63fde10&amp;width=600&amp;height=400&amp;lang=ru_RU" alt="" style="border: 0;" /></a></div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
