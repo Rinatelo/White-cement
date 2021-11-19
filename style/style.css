@@ -746,6 +746,10 @@ hr {
   .create-bottom-list {
     gap: 40px;
   }
+
+  .services-center-right {
+    width: 550px;
+  }
 }
 
 @media (max-width: 1240px) {
