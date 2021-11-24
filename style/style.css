@@ -121,7 +121,7 @@ form {
 }
 
 .header__center-center {
-  padding: 122px 95px 160px 95px;
+  padding: 122px 95px 90px 95px;
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -143,8 +143,18 @@ form {
   background-color: #ff6600;
   font-size: 30px;
   font-weight: 800;
-  padding: 39px 41px;
+  padding: 20px 41px 15px 41px;
   margin: 0;
+}
+
+.header__center-down-2 {
+  background-color: #ff6600;
+  font-size: 26px;
+  font-weight: 800;
+  padding: 0 0 20px 0;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .header__right {
@@ -242,6 +252,7 @@ form {
 .price-up-center {
   margin-bottom: 35px;
   max-width: 300px;
+  transform: translate(-10px, 0);
 }
 
 .price {
@@ -249,6 +260,15 @@ form {
   color: #ff6600;
   font-weight: 600;
   margin-bottom: 5px;
+}
+
+.price-up-bottom {
+  max-width: 225px;
+  margin-left: 10px;
+  text-align: center;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+  transform: translate(-10px, 0);
 }
 
 .pallet {
@@ -259,6 +279,11 @@ form {
   text-align: center;
 }
 
+.bag {
+  font-size: 24px;
+  color: #ff6600;
+}
+
 .price-list {
   margin-bottom: 110px;
 }
@@ -267,6 +292,7 @@ form {
   color: #808080;
   font-size: 22px;
   margin-bottom: 5px;
+  margin-left: 15px;
 }
 
 .bag-weight {
@@ -291,6 +317,8 @@ form {
 
 .price-block-btn {
   text-align: center;
+  max-width: 220px;
+  margin: 0 auto;
 }
 
 .price-btn {

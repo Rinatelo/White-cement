@@ -1,28 +1,31 @@
-const form = document.querySelector('form');
+jQuery(document).ready(function () {
+     
+     $("#phone").mask("+7 (999) 999-9999"); 
+    
+   
+    jQuery('.form__button').click( function() {
+    	var form = jQuery(this).closest('form');
+    	
+    	if ( form.valid() ) {
 
-form.addEventListener('submit', (e) => {
-	e.preventDefault();
-	// fetch
+    		var actUrl = form.attr('action');
 
-	let formData = new FormData(form);
+    		jQuery.ajax({
+    			url: actUrl,
+    			type: 'post',
+    			dataType: 'html',
+    			data: form.serialize(),
+    			success: function(data) {
+    				
+                    form.find('.status').html('форма отправлена успешно');
+                    
+    			},
+    			error:	 function() {
+    			     form.find('.status').html('серверная ошибка');
+    			}
+    		});
+    	}
+    });
 
-	fetch('mail.php', { method: 'POST', body: formData })
-		.then(() => console.log('отправлено'))
-		.catch(() => console.log('some error'));
-
-	// let xhr = new XMLHttpRequest();
-
-	// xhr.onreadystatechange = function() {
-	// 	if (xhr.readyState === 4) {
-	// 		if (xhr.status === 200) {
-	// 			console.log('Отправлено');
-	// 		}
-	// 	}
-	// }
-
-	// xhr.open('POST', 'mail.php', true);
-	// xhr.send(formData);
-
-	form.reset();
 
 });
