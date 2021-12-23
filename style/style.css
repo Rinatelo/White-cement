@@ -111,7 +111,7 @@ form {
 .logo1 {
   padding-top: 100px;
   width: 100%;
-  transform: translate(-55px, 50px);       
+  transform: translate(-55px, 40px);       
 }
 
 .logo2 {
@@ -262,6 +262,10 @@ form {
   margin-bottom: 5px;
 }
 
+.small {
+  font-size: 58px;
+}
+
 .price-up-bottom {
   max-width: 225px;
   margin-left: 10px;
@@ -337,6 +341,21 @@ form {
 .price-p {
   font-size: 33px;
   margin-bottom: 35px;
+}
+
+.price-heading_2 {
+  display: none;
+}
+
+.price-heading_2-left {
+  font-size: 4vh;
+  font-weight: 100;
+  margin-right: 20px;
+}
+
+.create-top-heading_2-right {
+  padding-top: 41px;
+  width: 230px;
 }
 
 /*section-services*/
@@ -748,7 +767,7 @@ hr {
 .logo2m {
   padding-bottom: 10px;
   width: 100%;
-  transform: translate(60px, -10px);
+  transform: translate(60px, -5px);
 }
 
 .maps-t {
@@ -895,137 +914,632 @@ hr {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
+
+    .container {
+      padding: 0;
+    }
+
+    .header {
+      background: rgba(0, 0, 0, 0.9) url(../img/Layer-3.png);
+      background-repeat: no-repeat;
+      background-size: 122%;
+    }
+
+    .header__center {
+      max-width: 360px;
+    }
+
+    .header__center-center {
+      text-align: center;
+      padding: 80px 0 40px 0;
+    }
+
+    .header__center-title {
+      margin-left: 0;
+    }
+
+    .header__center-down {
+      font-size: 28px;
+      padding: 50px 10px 15px 10px;
+    }
+
+    .header__center-down-2 {
+      font-size: 25px;
+      padding: 0 0 50px 0;
+    }
+
+    .header__right {
+      max-width: 360px;
+      padding: 30px 20px;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .header__right-title {
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    .header__right-title br {
+      display: none;
+    }
+
+    .header__right-item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    .header__right-text {
+      line-height: 1.5;
+      font-weight: 500;
+    }
+
+    .logo {
+      display: none;
+    }
+    
+    .logo1 {
+      display: block;
+      padding-top: 100px;
+      width: 100%;
+      transform: translate(-55px, 20px);       
+    }
+    
+    .logo2 {
+      display: block;
+      padding-bottom: 10px;
+      width: 100%;
+      transform: translate(60px, 30px);
+    }
+
+    .header__left-adaptive {
+      display: flex;
+      background-color: #000;
+      color: #fff;
+      margin-top: 0;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .form__title {
+      text-transform: uppercase;
+    }
+
+     form {
+      max-width: 360px;
+      padding: 40px 0;
+    }
+
+    .input {
+      border-bottom: 1px solid white;
+    }
+
+    .form__button {
+      margin: 50px;
+    }
+
+    .left-bottom {
+      border-bottom: 1px solid white;
+    }
+
+    .section__price {
+      padding: 25px 45px;
+    }
+
     .price-left-up {
-        background-size: 40vw;
-        
+      background-size: 60%;
+      background-position: right bottom;
+      margin-bottom: 0;
     }
 
     .price-right-up {
-        background-size: 40vw;
+        background-size: 50%;
+        background-position: right bottom;
+        margin-bottom: 0;
         
     }
 
     .price-heading {
-        font-size: 10vw;
-    }
-
-    .price-title {
-        font-size: 9vw;
-    }
-
-    hr {
+        font-size: 4vw;
         display: none;
     }
 
-    .section__services {
-        padding: 10px;
-        background-image: none;
-        background-color: #666;
+    .price-title {
+        font-size: 22px;
+        font-weight: 600;
+        color: #4d4d4d;
     }
+
+    .price-heading_2 {
+      display: flex;
+    }
+    
+    .price-heading_2-left {
+      font-size: 25px;
+      font-weight: 600;
+      color: #4d4d4d;
+      margin-right: 20px;
+    }
+    
+    .price-heading_2-right {
+      padding-top: 41px;
+      width: 465px;
+    }
+
+    .price-cards {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 55px;
+    }
+
+    .price-card:nth-child(1) {
+      margin-bottom: 0;
+    }
+
+    .price-card:nth-child(1) {
+      margin-right: 20px;
+    }
+
+    .price-card {
+      padding: 33px 20px 0 20px;
+    }
+
+    .country {
+      font-size: 23px;
+    }
+
+    .name {
+      font-size: 21px;
+    }
+
+    .price {
+      font-size: 33px;
+      margin-bottom: 0;
+    }
+
+    .small {
+      font-size: 32px;
+    }
+
+    .pallet {
+      font-size: 18px;
+      right: 85px;
+    }
+
+    .pallet-weight {
+      font-size: 14px;
+      margin-left: 0;
+    }
+
+    .bag {
+      font-size: 18px;
+    }
+
+    .bag-weight {
+      font-size: 14px;
+    }
+
+    .price-item-text {
+      font-size: 14px;
+    }
+
+    .price-item-value {
+      font-size: 14px;
+    }
+
+    .price-btn {
+      padding: 15px 40px;
+      font-size: 20px;
+    }
+
+    .price-up-bottom {
+      max-width: 130px;
+      border-top: 1px solid #4d4d4d;
+      padding-top: 10px;
+      padding-bottom: 40px;
+    }
+
+    .price-up-center {
+      margin-bottom: 10px;
+      max-width: 300px;
+      transform: translate( 0, 0);
+    }
+
+    .price-up-top {
+      margin-bottom: 20px;
+    }
+
+    .price-list {
+      font-size: 8px;
+      margin-bottom: 0;
+    }
+
+    .price-item-dots {
+      position: relative;
+      top: 6px;
+    }
+
+    .price-item {
+      margin-bottom: 23px;
+    }
+
+    .price-p {
+      display: none;
+    }
+
+    .section__services {
+        padding: 30px 45px;
+        background-image: url(../img/max.png);
+        background-color: #000;
+    }
+
+    .section__services-center {
+      margin-bottom: 30px;
+    }
+
+    .section__services-top {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+
+    .services-center-left {
+      font-size: 22px;
+      margin-right: 20px;
+    }
+
+    .services-center-right {
+      position: relative;
+      bottom: 22px;
+  }
 
     .section__services-bottom {
         display: flex;
-        flex-direction: column;
     }
 
     .services-bottom {
         height: auto;
-        width: auto;
-        padding-bottom: 15px;
+        width: 180px;
+        text-align: center;
+    }
+
+    .services-bottom-title {
+      font-size: 15px;
+    }
+
+    .services-bottom-p {
+      font-size: 14px;     
     }
 
     .services-bottom-left-image {
         margin-bottom: 10px;
+        background-size: auto 70%;
+        height: 110px;
     }
 
     .services-bottom-center-image {
         margin-bottom: 10px;
+        background-size: auto 70%;
+        height: 110px;
     }
 
     .services-bottom-right-image {
         margin-bottom: 10px;
+        background-size: auto 70%;
+        height: 110px;
+    }
+
+    .section-create {
+      background-image: url(../img/beton.png);
+      background-repeat: no-repeat;
     }
 
     .create-top {
-        padding: 15px;
+        padding: 15px 45px;
     }
 
+    .create-top-heading {
+      font-size: 25px;
+      margin-bottom: 7px;
+  }
+
     .create-top-heading_2-left {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    .create-top-heading_2-right {
+      padding-top: 41px;
+      width: 510px;
+      position: relative;
+      bottom: 22px;
+    }
+
+    .create-bottom-item:nth-child(1) {
+      background-image: url(../img/Layer-65.svg);
+      background-position-x: 5px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-item:nth-child(2) {
+      background-image: url(../img/Layer-63.svg);
+      background-position-x: 5px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-item:nth-child(3) {
+      background-image: url(../img/Layer-67.svg);
+      background-position-x: 5px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-item:nth-child(4) {
+      background-image: url(../img/Layer-73.svg);
+      background-position-y: 10px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-item:nth-child(5) {
+      background-image: url(../img/Layer-71.svg);
+      background-position-x: 25px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-item:nth-child(6) {
+      background-image: url(../img/Layer-69.svg);
+      background-position-y: 0px;
+      background-position-x: -2px;
+      background-repeat: no-repeat;
+    }
+
+    .create-bottom-up-left-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 15px;
+      font-size: 19px;
+    }
+
+    .create-bottom-up-center-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .create-bottom-up-right-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .create-bottom-down-left-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .create-bottom-down-center-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .create-bottom-text {
+      font-size: 15px;
+      padding-left: 100px;
+    }
+
+    .create-bottom-down-right-title {
+      background-image: none;
+      padding-left: 100px;
+      margin-bottom: 15px;
+      font-size: 16px;
     }
 
     .create-bottom {
-        padding-right: 0;
+        padding: 0 20px 65px 45px;
+    }
+
+    .create-bottom-list {
+      gap: 35px;
     }
 
     .section-certificates {
-        padding: 15px;
+      padding: 15px;
+      background-image: url(../img/ser.png);
+      background-color: #000;
+      background-repeat: no-repeat;
+      padding: 40px 45px 20px 45px;
+    }
+
+    .certificates-top {
+      margin-bottom: 50px;
+    }
+
+    .certificates-line {
+      padding-top: 41px;
+      width: 510px;
+      position: relative;
+      bottom: 19px;
+    }
+
+    .certificates-img {
+      width: 190px;
+
     }
 
     .certificates-title {
-        font-size: 36px;
+        font-size: 25px;
+        color: #fff;
     }
 
     .section-partners {
         padding: 15px;
     }
-
-    .header__center-center {
-        padding: 0;
-    }
-
-    .header {
-        padding-bottom: 15px;
-    }
-
-    .price-card {
-        padding: 0;
-        margin-right: 0;
-        min-width: 350px;
-    }
-
+   
     .certificates-img  {
         margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .section-partners {
+      padding: 15px 45px;
+    }
+
+    .partners-title {
+      font-size: 25px;
+    }
+
+    .partners-line {
+      padding-top: 55px;
+      width: 510px;
+      position: relative;
+      bottom: 30px;
+    }
+
+    .partners-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      margin-left: 50px;
+    }
+
+    .partners-top {
+      margin-bottom: 40px;
+    }
+
+    .partners-img {
+      width: 250px;
+      height: 80px;
+    }
+
+    .partners-img:nth-child(1) {
+      margin-right: 80px;
+      margin-left: 0;
+      margin-bottom: 80px;
+    }
+
+    .partners-img:nth-child(2) {
+      position: inherit;
+      margin-right: 0px;
+    }
+
+    .partners-img:nth-child(3) {
+      margin-right: 80px;
+    }
+
+    .section-maps {
+      height: 1400px;
+    }
+
+    .maps-t {
+      transform: none;
     }
 
     .maps-header {
         padding: 5px;
+        flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .maps-header-left {
-        background-size: contain;
+      width: 160px;
+      height: 80px;
+      margin-left: 500px;
     }
 
-    .maps-left {
-        margin-left: 0;
-        padding: 5px;
+    .logo1m {
+      padding-top: 37px;
+      width: 100%;
+      transform: translate(-20px, -10px);
+    }
+
+    .logo2m {
+      width: 100%;
+      transform: translate(20px, -5px);
+    }
+
+    .maps-header-right {
+      font-size: 23px;
+      margin-left: 40px;
     }
 
     .maps-right {
-        height: 70px;
-        width: 100px;
+      width: 907px;
+      height: 235px;
     }
 
     .maps-left {
-        margin-right: 0;
-        width: auto;
+      width: 753px;
+      margin-left: 100px;
+      padding: 0;
+      margin-right: 60px;
     }
 
-    .maps-bottom {
-        flex-direction: column;
-    }
-
-    .maps-center {
-        flex-direction: column;
+    .maps-bt {
+      transform: none;
     }
 
     .maps-top {
-        flex-direction: column;
+      margin-bottom: 50px;
+      padding: 0 45px 0 0;
     }
 
-    .section-maps {
-        max-width: 400px;
+    .maps-center {
+      margin-bottom: 50px;
+      padding: 0 45px 0 0;
     }
 
+    .maps-bottom {
+      margin-bottom: 50px;
+      padding: 0 45px 0 0;
+      height: 208px;
+    }
+
+    .maps-title {
+      margin-bottom: 15px;
+      font-size: 16px;
+      padding-left: 60px;
+      padding-bottom: 25px;
+    }
+    
+  }
+
+  @media (max-width: 685px) {
+    .maps-header-left {
+      display: none;
+    }
+
+    .logo1, .logo2 {
+      display: none;
+    }
+
+    .logo {
+      display: block;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .price-cards {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 55px;
+    }
+
+    .price-card:nth-child(1) {
+      margin-right: 0;
+      margin-bottom: 20px;
+      
+    }
+
+    .price-card:nth-child(2) {
+     margin-left: 0;
+    }
+
+    .maps-title {
+      font-size: 14px;
+    }
+
+    
   }

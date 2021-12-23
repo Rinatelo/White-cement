@@ -15,7 +15,7 @@
     Фамилия: $surname /n
     Телефон: $phone /n
     Почта: $email /n 	
-	mail($to, $subject, $msg, "From: $to");
+	mail($to, $subject, $msg, "From: $from");
 
 ?>
 
