@@ -1230,6 +1230,7 @@ hr {
 
     .section-create {
       background-image: url(../img/beton.png);
+      background-size: cover;
       background-repeat: no-repeat;
     }
 
@@ -1506,6 +1507,22 @@ hr {
     
   }
 
+  @media (max-width: 720px)  {
+  .partners-img {
+    height: 40%;
+    width: 40%;
+  }
+
+  .partners-img:nth-child(1) {
+    margin-right: 40px;
+  }
+
+  .partners-img:nth-child(3) {
+    margin-right: 40px;
+  }
+
+}
+
   @media (max-width: 685px) {
     .maps-header-left {
       display: none;
@@ -1518,6 +1535,8 @@ hr {
     .logo {
       display: block;
     }
+
+    
   }
 
   @media (max-width: 600px) {
@@ -1540,6 +1559,43 @@ hr {
     .maps-title {
       font-size: 14px;
     }
+
+    .section__services {
+      background-size: cover;
+    }
+
+    .services-bottom-left-image {
+      background-size: auto 60%;
+    }
+
+    .services-bottom-center-image {
+      background-size: auto 60%;
+    }
+
+    .services-bottom-right-image {
+      background-size: auto 60%;
+    }
+
+    .partners-img {
+      height: 40%;
+      width: 40%;
+    }
+
+    .partners-img:nth-child(1) {
+      margin-right: 40px;
+    }
+
+    .partners-img:nth-child(3) {
+      margin-right: 40px;
+    }
+
+
+    .section-certificates {
+      background-size: cover;
+  }
+
+
+   
 
     
   }
