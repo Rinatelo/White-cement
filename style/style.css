@@ -1536,6 +1536,10 @@ hr {
       display: block;
     }
 
+    .header {
+      background-size: cover;
+    }
+
     
   }
 
