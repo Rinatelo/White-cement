@@ -1569,7 +1569,7 @@ hr {
     }
 
     .services-bottom-left-image {
-      background-size: auto 40%;
+      background-size: auto 55%;
     }
 
     .services-bottom-center-image {
@@ -1596,10 +1596,127 @@ hr {
 
     .section-certificates {
       background-size: cover;
-  }
+    }
 
+    .logo {
+      padding-top: 70px;
+      padding-bottom: 25px;
+      margin: 0 auto;
+      width: 85%;
+    }
+
+    .header__center-down {
+      text-align: center;
+    }
+
+    
 
    
 
     
   }
+
+
+  @media (max-width: 410px) {
+  
+  .section-maps {
+      height: 520px;
+  } 
+
+  .pallet {
+    right: 25%;
+  }
+
+  .section__services {
+    padding: 30px 20px;   
+  }
+
+  .services-bottom-left-image {
+    margin-bottom: -10px;
+    background-size: auto 35%;
+  }
+
+  .services-bottom-center-image {
+    margin-bottom: -10px;
+    background-size: auto 35%;
+  }
+
+  .services-bottom-right-image {
+    margin-bottom: -10px;
+    background-size: auto 35%;
+  }
+
+  .services-bottom-title {
+    font-size: 9px;
+  }
+
+  .services-bottom-p {
+    font-size: 8px;
+  }
+
+  .maps-left {
+    margin-left: 35px;
+    padding: 0;
+    margin-right: 20px;
+  }
+
+  .maps-right {
+    width: 450px;
+  }
+
+  .maps-text {
+  background-image: url(../img/Layer-56.svg);
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: left;
+  margin-bottom: 5px;
+  padding-left: 25px;
+  padding-top: 8px;
+  font-size: 9px;
+  }
+
+  .maps-title {
+    background-image: inherit;
+    margin-bottom: 15px;
+    font-size: 9px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .maps-number {
+  margin-bottom: 3px;
+  background-image: url(../img/Layer-59.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 8%;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 9px;
+  }
+
+  .maps-top {
+    margin-bottom: 30px;
+    padding: 0 35px 0 0;
+  }
+
+  .maps-center {
+    margin-bottom: 30px;
+    padding: 0 35px 0 0;
+  }
+
+  .maps-bottom {
+    margin-bottom: 30px;
+    padding: 0 35px 0 0;
+  }
+
+  .maps-right {
+    height: 100px;
+  }
+
+  .maps-bottom {
+    height: 90px;
+  }
+
+
+}
