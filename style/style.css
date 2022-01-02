@@ -802,6 +802,7 @@ hr {
 .popup__form {
   background-color: rgba(255, 255, 255, 0.671);
   position: relative;
+  text-align: center;
 }
 
 .popup__close {
