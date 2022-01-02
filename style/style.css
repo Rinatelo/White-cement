@@ -1764,6 +1764,10 @@ hr {
   .maps-bottom {
     height: 90px;
   }
+    
+    .mar {
+      margin: 30px;
+    }
 
 
 }
