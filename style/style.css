@@ -809,6 +809,8 @@ hr {
   position: absolute;
   right: -130px;
   top: 10px;
+  width: 100%;
+  height: 15%;
 }
 
 .ghost {
