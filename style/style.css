@@ -827,6 +827,13 @@ hr {
   left: 0;
 } 
 
+.price-heading_3 {
+  display: flex;
+  font-size: 45px;
+  margin-bottom: 45px;
+}
+
+
 /*media*/
 @media (max-width: 1530px) {
   .section-certificates {
@@ -1095,8 +1102,9 @@ hr {
 
     .price-title {
         font-size: 22px;
-        font-weight: 600;
-        color: #4d4d4d;
+        font-weight: 100;
+        color: #000;
+        margin-right: 20px;
     }
 
     .price-heading_2 {
@@ -1111,8 +1119,12 @@ hr {
     }
     
     .price-heading_2-right {
-      padding-top: 41px;
+      padding-top: 21px;
       width: 465px;
+    }
+
+    .price-heading_3 {
+      display: none;
     }
 
     .price-cards {
