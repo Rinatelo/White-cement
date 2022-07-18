@@ -223,7 +223,7 @@ form {
   background-image: url(../img/Layer-79.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 53%;
   margin-bottom: 130px;
 }
 
@@ -628,7 +628,7 @@ hr {
 .certificates-bottom {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0 15px;
   margin: 0;
 }
@@ -833,6 +833,14 @@ hr {
   margin-bottom: 45px;
 }
 
+.a_tel {
+  color: #fff;
+}
+
+.a_tel-2 {
+  color: #fff;
+}
+
 
 /*media*/
 @media (max-width: 1530px) {
@@ -892,6 +900,10 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+  
+  .a_tel {
+    color: #000;
   }
 
   .header__center {
@@ -1083,7 +1095,7 @@ hr {
     }
 
     .price-left-up {
-      background-size: 60%;
+      background-size: 53%;
       background-position: right bottom;
       margin-bottom: 0;
     }
